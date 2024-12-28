@@ -29,3 +29,8 @@
 
 en:
   hello: "Hello world"
+
+  books:
+    index:
+      title: "All books"
+      edit_book: "Edit book"

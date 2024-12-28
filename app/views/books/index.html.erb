@@ -1,8 +1,8 @@
-<h1>All Books</h1>
+<h1><%= t ".title" %></h1>
 
 <div>
     <% @books.each do |book| %>
         <%= link_to book.title, book %>
-        <%= link_to "Edit", edit_book_path(book.id) %>
+        <%= link_to t(".edit_book"), edit_book_path(book.id) %>
     <% end %>
 </div>
