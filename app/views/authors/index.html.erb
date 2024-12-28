@@ -1,0 +1,9 @@
+<h1>All Authors</h1>
+
+<div>
+    <% @authors.each do |author| %>
+        <%= link_to author.name, author %>
+        <%= link_to "Edit", edit_author_path(author.id) %>
+        <br>
+    <% end %>
+</div>
